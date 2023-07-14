@@ -1,0 +1,25 @@
+@import "tailwindcss/tailwind.css";
+
+/* @import "tailwind base";
+@import "tailwind components";
+@import "tailwind utilities"; */
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* login, register, forgot password inputer design */
+
+.inputdes{
+    @apply bg-[#1e2126] text-[#a3a3a4] outline-none w-full h-[60px] rounded-lg p-6
+}
+
+/* login, register, forgot password button designe */
+.lrfbut{
+    @apply bg-blue-500 text-white w-full h-14 rounded-lg py-3.5 hover:bg-blue-600
+}
+
+/* all errors desigine */
+.errors{
+    @apply text-[#a3a3a4] pl-2
+}
